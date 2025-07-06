@@ -15,7 +15,7 @@ Manual grocery billing using barcode scanners is time-consuming and requires hum
 |--------------------------------------------------------------|-------------|
 | `EDA_freiburg.ipynb`                                        | Performs exploratory data analysis (EDA) on the Freiburg Groceries Dataset. Includes visualizations of class distribution and object count per image. |
 | `Model Training.ipynb`                                      | Trains the YOLOv8 model on 25 grocery categories from the Freiburg dataset. Prepares data, handles formatting, and runs training for 50 epochs. |
-| `Model Prediction`                                           | Loads the trained YOLOv8 model, performs object detection on input images, and integrates item-wise billing logic using predefined prices. |
+| `Model Predictions.ipynb`                                           | Loads the trained YOLOv8 model, performs object detection on input images, and integrates item-wise billing logic using predefined prices. |
 | `Automated_billing_system.py`                                | Streamlit application that allows users to upload grocery item images, performs detection, and displays the final bill with item names, quantities, and prices. |
 | `Automated Grocery Billing System using Computer Vision and Deep Learning Techniques.pptx` | Final presentation outlining the project methodology, dataset, model performance, billing workflow, and user interface snapshots. |
 
